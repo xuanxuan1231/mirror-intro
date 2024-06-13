@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -87,6 +87,3 @@ highlights:
 copyright: false
 footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | Wenxuan Chen 和 Jerry Wu 共同搭建
 ---
-
-<br>
-logo 制作中。

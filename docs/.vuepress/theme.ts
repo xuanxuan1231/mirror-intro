@@ -16,7 +16,7 @@ export default hopeTheme({
     "https://jsdelivr.mirrors.us.kg/npm/@fortawesome/fontawesome-free@6/js/fontawesome.min.js",
   ],
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo-little.svg",
 
   repo: "xuanxuan1231/mirror-intro",
 
@@ -29,7 +29,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "致力于",
+  footer: "致力于成为一个免费、易用的镜像",
   displayFooter: false,
 
   // 加密配置

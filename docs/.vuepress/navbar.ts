@@ -10,7 +10,7 @@ export default navbar([
   },
   {
     text: "镜像站",
-    icon: "lightbulb",
+    icon: "round",
     children: [
       {
         text: "JsDelivr",
