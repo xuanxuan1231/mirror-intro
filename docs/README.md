@@ -12,11 +12,8 @@ tagline: 提供部分国内不可用网站的镜像访问
 actions:
   - text: 使用指南
     icon: lightbulb
-    link: ./demo/
-    type: primary
-
-  - text: 文档
     link: ./guide/
+    type: primary
 
 highlights:
   - header: 易于使用
@@ -35,61 +32,61 @@ highlights:
       - title: JsDelivr
         icon: /assets/image/jsdelivr.png
         details: 对于 JS 和开源项目的免费、高速、可靠的 CDN<br>使用 Vercel 构建
-        link: https://theme-hope.vuejs.press/zh/guide/feature/catalog.html
+        link: /guide/jsdelivr.html
 
       - title: GitHub
         icon: fab fa-github
         details: Let's build from here.<br>使用 Vercel 构建
-        link: https://theme-hope.vuejs.press/zh/guide/feature/comment.html
+        link: /guide/github.html
 
       - title: Bing AI
         icon: fab fa-microsoft
         details: Microsoft Copilot<br>使用 Cloudflare Workers 构建<br>优选 IP
-        link: https://theme-hope.vuejs.press/zh/guide/feature/page-info.html
+        link: /guide/bingai.html
 
       - title: Docker Hub Registry
         icon: fab fa-docker
         details: Docker Hub 拉取镜像<br>使用 Vercel 构建<br>测试中
-        link: https://theme-hope.vuejs.press/zh/guide/feature/encrypt.html
+        link: /guide/docker.html
 
       - title: Google Container Registry
         icon: fab fa-google
-        details: 支持 docsearch 和基于客户端的搜索
-        link: https://theme-hope.vuejs.press/zh/guide/feature/search.html
+        details: Google Kubernetes 仓库<br>使用 Vercel 构建<br>测试中
+        link: /guide/qcr.html
 
-      - title: Quay
+      - title: Red Hat Quay
         icon: fab fa-redhat
-        details: 自定义代码块主题、行号、行高亮、复制按钮等
-        link: https://theme-hope.vuejs.press/zh/guide/feature/code-block.html
+        details: 构建、存储和分发应用程序和容器<br>使用 Vercel 构建<br>测试中
+        link: /guide/quay.html
 
       - title: GitHub Container Registry
         icon: fab fa-github-square
-        details: 像相册一样允许你浏览、缩放并分享你的页面图片
-        link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
+        details: Your packages, at home with their code<br>搭建中
+        link: /guide/ghcr.html
 
   - header: 一起干？
-    description: 增强站点与用户体验的高级功能
+    description: 和我们一起来
     image: /assets/image/advanced.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     highlights:
       - title: GitHub
         icon: fab fa-github
-        details: xuanxuan1231
-        link: https://mirrors.us.kg/github
+        details: xuanxuan1231 或 windyslime
+        link: https://mirrors.us.kg/contribute/github
 
       - title: 电子邮件
         icon: envelope
         details: 给我发邮件
-        link: https://mirrors.us.kg/email
+        link: https://mirrors.us.kg/contribute/email
 
       - title: NodeLoc
         details: 论坛发私信
-        link: https://mirrors.us.kg/nodeloc
+        link: https://mirrors.us.kg/contribute/nodeloc
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
+footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | Wenxuan Chen 和 Jerry Wu 共同搭建
 ---
 
 <br>
-logo 待定。
+logo 制作中。

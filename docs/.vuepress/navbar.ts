@@ -2,30 +2,52 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/portfolio",
-  "/demo/",
   {
     text: "指南",
     icon: "lightbulb",
     prefix: "/guide/",
+    children: ["jsdelivr", "github", "bingai", "docker", "gcr", "quay", ],
+  },
+  {
+    text: "镜像站",
+    icon: "lightbulb",
     children: [
       {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        text: "JsDelivr",
+        
+        link: "https://jsdelivr.mirrors.us.kg",
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
+        text: "GitHub",
+        icon: "fab fa-github",
+        link: "https://github.mirrors.us.kg",
+      },
+      {
+        text: "Bing AI",
+        icon: "fab fa-microsoft",
+        link: "https://bingai.mirrors.us.kg",
+      },
+      {
+        text: "Docker Hub Registry",
+        icon: "fab fa-docker",
+        link: "https://docker.mirrors.us.kg",
+      },
+      {
+        text: "Google Container Registry",
+        icon: "fab fa-google",
+        link: "https://gcr.mirrors.us.kg",
+      },
+      {
+        text: "Red Hat Quay",
+        icon: "fab fa-redhat",
+        link: "https://quay.mirrors.us.kg",
+      },
+      {
+        text: "GitHub Container Registry",
+        icon: "fab fa-github-square",
+        link: "",
       },
     ],
   },
-  {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+  "/contribute/",
 ]);

@@ -49,13 +49,13 @@ export default hopeTheme({
 
   // 在这里配置主题提供的插件
   plugins: {
-    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
+    
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
+      repo: "xuanxuan1231/mirror-intro",
       repoId: "R_kgDOG_Pt2A",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOMIgIbc4CgED3",
     },
 
     components: {
