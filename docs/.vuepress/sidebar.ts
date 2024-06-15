@@ -4,22 +4,16 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "案例",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文档",
+      text: "指南",
       icon: "book",
       prefix: "guide/",
-      children: "structure",
+      link: "guide/",
+      children: ["jsdelivr", "github", "bingai", "docker", "gcr", "quay"]
     },
     {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
+      text: "一起来",
+      icon: "code-branch",
+      link: "/contribute",
     },
   ],
 });

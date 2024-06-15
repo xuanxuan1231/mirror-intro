@@ -10,7 +10,7 @@ export default navbar([
   },
   {
     text: "镜像站",
-    icon: "round",
+    icon: "circle",
     children: [
       {
         text: "JsDelivr",
@@ -49,5 +49,5 @@ export default navbar([
       },
     ],
   },
-  "/contribute/",
+  {text: "一起来", link: "/contribute", icon: "code-branch"}
 ]);

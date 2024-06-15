@@ -62,7 +62,7 @@ highlights:
       - title: GitHub Container Registry
         icon: fab fa-github-square
         details: Your packages, at home with their code<br>搭建中
-        link: /guide/ghcr.html
+        link: #
 
   - header: 一起干？
     description: 和我们一起来
@@ -70,20 +70,22 @@ highlights:
     bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     highlights:
-      - title: GitHub
+      - title: GitHub Issue
         icon: fab fa-github
         details: xuanxuan1231 或 windyslime
-        link: https://mirrors.us.kg/contribute/github
+        link: /contribute#通过-github-issue
 
       - title: 电子邮件
         icon: envelope
         details: 给我发邮件
-        link: https://mirrors.us.kg/contribute/email
+        link: /contribute#通过-电子邮件
 
-      - title: NodeLoc
-        details: 论坛发私信
-        link: https://mirrors.us.kg/contribute/nodeloc
+      - title: Telegram
+        icon: fab fa-telegram
+        details: "@shenwenxuan1231"
+        link: /contribute#通过-telegram-不建议
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | Wenxuan Chen 和 Jerry Wu 共同搭建
+footer: <img src="/assets/build-with-vercel.svg" width=19%/> <img src="/assets/thank-bdfz.svg" width=19%/> <br><br>使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | Wenxuan Chen 和 Jerry Wu 共同搭建
 ---
+
