@@ -51,11 +51,8 @@ export default hopeTheme({
   plugins: {
     
     comment: {
-      provider: "Giscus",
-      repo: "xuanxuan1231/mirror-intro",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOMIgIbc4CgED3",
+      provider: "Waline",
+      serverURL: "https://waline.mirrors.us.kg"
     },
 
     components: {
