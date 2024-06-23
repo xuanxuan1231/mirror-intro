@@ -31,37 +31,37 @@ highlights:
     features:
       - title: JsDelivr
         icon: /assets/image/jsdelivr.png
-        details: 对于 JS 和开源项目的免费、高速、可靠的 CDN<br>使用 Vercel 构建
+        details: 对于 JS 和开源项目的免费、高速、可靠的 CDN<br>基于 Vercel <br>构建中
         link: /guide/jsdelivr.html
 
       - title: GitHub
         icon: fab fa-github
-        details: Let's build from here.<br>使用 Vercel 构建
+        details: Let's build from here.<br>基于 Vercel <br>构建中
         link: /guide/github.html
 
       - title: Bing AI
         icon: fab fa-microsoft
-        details: Microsoft Copilot<br>使用 Cloudflare Workers 构建<br>优选 IP
+        details: Microsoft Copilot<br>基于 Cloudflare Workers <br>优选 IP<br>构建中
         link: /guide/bingai.html
 
       - title: Docker Hub Registry
         icon: fab fa-docker
-        details: Docker Hub 拉取镜像<br>使用 Vercel 构建<br>测试中
+        details: Docker Hub 拉取镜像<br>基于 Vercel 构建<br>测试中
         link: /guide/docker.html
 
       - title: Google Container Registry
         icon: fab fa-google
-        details: Google Kubernetes 仓库<br>使用 Vercel 构建<br>测试中
+        details: Google Kubernetes 仓库<br>基于 Vercel 构建<br>测试中
         link: /guide/qcr.html
 
       - title: Red Hat Quay
         icon: fab fa-redhat
-        details: 构建、存储和分发应用程序和容器<br>使用 Vercel 构建<br>测试中
+        details: 构建、存储和分发应用程序和容器<br>基于 Vercel 构建<br>测试中
         link: /guide/quay.html
 
       - title: GitHub Container Registry
         icon: fab fa-github-square
-        details: Your packages, at home with their code<br>搭建中
+        details: Your packages, at home with their code<br>构建中
         link: #
 
   - header: 一起干？
