@@ -46,17 +46,17 @@ highlights:
 
       - title: Docker Hub Registry
         icon: fab fa-docker
-        details: Docker Hub 拉取镜像<br>基于 Vercel 构建<br>测试中
+        details: Docker Hub 拉取镜像<br>基于 Vercel <br>测试中
         link: /guide/docker.html
 
       - title: Google Container Registry
         icon: fab fa-google
-        details: Google Kubernetes 仓库<br>基于 Vercel 构建<br>测试中
+        details: Google Kubernetes 仓库<br>基于 Vercel <br>测试中
         link: /guide/qcr.html
 
       - title: Red Hat Quay
         icon: fab fa-redhat
-        details: 构建、存储和分发应用程序和容器<br>基于 Vercel 构建<br>测试中
+        details: 构建、存储和分发应用程序和容器<br>基于 Vercel <br>测试中
         link: /guide/quay.html
 
       - title: GitHub Container Registry
